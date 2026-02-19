@@ -7,57 +7,304 @@
 <title>Installation Panneaux Photovoltaïques Professionnels en France | Evolink</title>
 
 <meta name="description" content="Installation de panneaux photovoltaïques pour professionnels en France. Solutions solaires pour bâtiments industriels, commerces, exploitations agricoles et entreprises. Étude personnalisée et installation clé en main.">
-
-<link rel="canonical" href="https://evolinkpro.com/installation-photovoltaique-professionnels-france.html" />
+<link rel="canonical" href="https://evolinkpro.com/installation-photovoltaique-professionnels-france.html">
 
 <style>
-body{font-family:Arial;margin:0;background:#f4f4f4;color:#333;}
-.section{padding:80px 20px;text-align:center;}
-.hero{background:linear-gradient(to right,#ff8c00,#ffa500);color:white;padding:100px 20px;}
-.btn{display:inline-block;margin-top:20px;padding:12px 25px;background:#ff8c00;color:white;text-decoration:none;border-radius:5px;font-weight:bold;}
+:root {
+  --bg: #f3f6fa;
+  --text: #1b2533;
+  --muted: #5c6a7f;
+  --primary: #ff7a00;
+  --primary-dark: #d76000;
+  --navy: #0f2d4a;
+  --card: #ffffff;
+  --border: #dbe4ef;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1120px, 92%);
+  margin: 0 auto;
+}
+
+.hero {
+  color: #fff;
+  padding: 88px 0 72px;
+  background:
+    linear-gradient(135deg, rgba(15, 45, 74, 0.95), rgba(15, 45, 74, 0.8)),
+    radial-gradient(circle at 10% 10%, rgba(255, 122, 0, 0.55), transparent 40%),
+    radial-gradient(circle at 80% 20%, rgba(255, 166, 64, 0.35), transparent 36%),
+    #102f4e;
+}
+
+.eyebrow {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #ffd4ad;
+  margin-bottom: 14px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 3.6vw, 3rem);
+  line-height: 1.2;
+  max-width: 900px;
+}
+
+.lead {
+  margin-top: 18px;
+  max-width: 760px;
+  color: #e3ecf5;
+  font-size: clamp(1rem, 2.1vw, 1.15rem);
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn.primary {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(255, 122, 0, 0.34);
+}
+
+.btn.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+section {
+  padding: 68px 0;
+}
+
+.section-title {
+  margin: 0 0 10px;
+  font-size: clamp(1.5rem, 2.7vw, 2rem);
+  color: var(--navy);
+}
+
+.section-text {
+  margin: 0;
+  max-width: 880px;
+  color: var(--muted);
+}
+
+.grid {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 10px 24px rgba(16, 40, 65, 0.06);
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.kpis {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.kpi {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+}
+
+.kpi strong {
+  display: block;
+  color: var(--navy);
+  font-size: 1.4rem;
+  line-height: 1.1;
+}
+
+.kpi span {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.cta {
+  background: linear-gradient(135deg, #173a5c 0%, #0f2d4a 100%);
+  color: #fff;
+  border-radius: 14px;
+  padding: 36px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.cta h2 {
+  margin: 0;
+  font-size: clamp(1.35rem, 2.5vw, 1.85rem);
+}
+
+.cta p {
+  margin: 8px 0 0;
+  color: #ccdae9;
+}
+
+footer {
+  text-align: center;
+  color: #6e7f92;
+  font-size: 0.9rem;
+  padding: 30px 0 42px;
+}
+
+@media (max-width: 920px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .kpis { grid-template-columns: 1fr 1fr; }
+  .cta { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 640px) {
+  .hero { padding-top: 72px; }
+  .grid, .kpis { grid-template-columns: 1fr; }
+  .cta { padding: 24px; }
+}
 </style>
 
 </head>
-
 <body>
 
-<div class="hero">
-<h1>Installation Panneaux Photovoltaïques Professionnels en France</h1>
-<p>Solutions énergétiques performantes pour entreprises, industries et exploitations agricoles.</p>
-<a href="https://evolinkpro.com/#contact" class="btn">Demander une étude personnalisée</a>
-</div>
+<header class="hero">
+  <div class="container">
+    <span class="eyebrow">Evolink • Solaire B2B France</span>
+    <h1>Installation photovoltaïque professionnelle en France, pensée pour la performance.</h1>
+    <p class="lead">
+      Nous concevons et installons des centrales solaires clé en main pour les entreprises,
+      bâtiments industriels, commerces et exploitations agricoles avec un pilotage complet du projet.
+    </p>
+    <div class="actions">
+      <a href="https://evolinkpro.com/#contact" class="btn primary">Demander une étude personnalisée</a>
+      <a href="https://evolinkpro.com/#services" class="btn secondary">Découvrir nos services</a>
+    </div>
+  </div>
+</header>
 
-<div class="section">
-<h2>Spécialiste photovoltaïque B2B</h2>
-<p>
-Evolink accompagne les professionnels partout en France dans l’installation de panneaux photovoltaïques sur bâtiments industriels, entrepôts, commerces, bureaux et exploitations agricoles.
-Nos solutions permettent de réduire les coûts énergétiques et d’optimiser la rentabilité des infrastructures.
-</p>
-</div>
+<section>
+  <div class="container">
+    <h2 class="section-title">Une approche experte pour vos sites professionnels</h2>
+    <p class="section-text">
+      De l'audit énergétique à la mise en service, Evolink vous accompagne partout en France avec une équipe
+      dédiée aux projets B2B. Chaque installation est dimensionnée selon vos contraintes de production,
+      votre profil de consommation et vos objectifs de rentabilité.
+    </p>
 
-<div class="section">
-<h2>Nos solutions photovoltaïques</h2>
-<p>
-• Installation sur toiture industrielle<br>
-• Centrales solaires pour entrepôts<br>
-• Projets photovoltaïques agricoles<br>
-• Autoconsommation et revente du surplus<br>
-• Maintenance et suivi des performances
-</p>
-</div>
+    <div class="grid">
+      <article class="card">
+        <h3>Ingénierie & dimensionnement</h3>
+        <p>Étude technique, simulation de production, scénarios d'autoconsommation et projection de ROI.</p>
+      </article>
+      <article class="card">
+        <h3>Installation clé en main</h3>
+        <p>Réalisation sur toiture, ombrière ou centrale au sol avec coordination complète des intervenants.</p>
+      </article>
+      <article class="card">
+        <h3>Suivi & maintenance</h3>
+        <p>Monitoring, maintenance préventive et corrective pour sécuriser la performance dans la durée.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-<div class="section">
-<h2>Pourquoi investir ?</h2>
-<p>
-Le photovoltaïque professionnel permet une réduction significative des dépenses énergétiques,
-une valorisation du patrimoine immobilier et une amélioration de la performance environnementale.
-Nos projets sont dimensionnés pour assurer un retour sur investissement optimisé.
-</p>
-</div>
+<section>
+  <div class="container">
+    <h2 class="section-title">Solutions photovoltaïques pour chaque activité</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Industrie & logistique</h3>
+        <p>Toitures d'entrepôts, usines et plateformes avec optimisation des surfaces disponibles.</p>
+      </article>
+      <article class="card">
+        <h3>Commerces & tertiaire</h3>
+        <p>Réduction des charges énergétiques et amélioration de votre image RSE auprès de vos clients.</p>
+      </article>
+      <article class="card">
+        <h3>Agricole</h3>
+        <p>Valorisation des bâtiments agricoles et sécurisation des coûts d'énergie sur le long terme.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-<div class="section">
-<a href="https://evolinkpro.com/#contact" class="btn">Contactez-nous</a>
-</div>
+<section>
+  <div class="container">
+    <h2 class="section-title">Pourquoi investir dans le solaire professionnel ?</h2>
+    <p class="section-text">Un projet photovoltaïque bien dimensionné vous permet de maîtriser vos dépenses d'énergie tout en renforçant la valeur de vos actifs.</p>
+
+    <div class="kpis">
+      <div class="kpi"><strong>Jusqu'à 40%</strong><span>de réduction de facture énergétique*</span></div>
+      <div class="kpi"><strong>20 à 30 ans</strong><span>de durée de vie des installations</span></div>
+      <div class="kpi"><strong>ROI optimisé</strong><span>grâce à l'autoconsommation et au surplus</span></div>
+      <div class="kpi"><strong>Impact CO₂ réduit</strong><span>et performance environnementale renforcée</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta">
+      <div>
+        <h2>Vous avez un projet photovoltaïque en France ?</h2>
+        <p>Parlez à un expert Evolink pour obtenir une proposition claire, chiffrée et adaptée à votre activité.</p>
+      </div>
+      <a href="https://evolinkpro.com/#contact" class="btn primary">Contactez-nous</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  *Estimation variable selon le profil de consommation, la puissance installée et le dimensionnement du projet.
+</footer>
 
 </body>
 </html>
