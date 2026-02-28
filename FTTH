@@ -1,1 +1,290 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Google Search Console Verification -->
+<meta name="google-site-verification" content="pqC7HuM7J9cl0OAc4pFjAqsvRBC62Sj5fZ_UvADKlNU" />
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0HNNB6Y9Z6"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0HNNB6Y9Z6');
+</script>
+
+<meta name="description" content="Spécialiste en installation de panneaux photovoltaïques pour professionnels en France. Solutions solaires pour bâtiments industriels, commerces, exploitations agricoles et sites tertiaires. Étude personnalisée et installation clé en main.">
+
+<meta name="description" content="Spécialiste en installation de panneaux photovoltaïques pour professionnels en France. Solutions solaires pour bâtiments industriels, commerces, exploitations agricoles et sites tertiaires. Étude personnalisée et installation clé en main.">
+
+<style>
+
+
+
+<style>
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f4f4;
+color:#333;
+}
+
+nav{
+background:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+position:sticky;
+top:0;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+margin-left:20px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ff8c00;
+}
+
+.hero{
+background:linear-gradient(to right, #ff8c00, #ffa500);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:50px;
+margin:0;
+}
+
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+width:280px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#ff8c00;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+.footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:30px;
+}
+.services{
+flex-direction:column;
+align-items:center;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div><strong>EVOLINK</strong></div>
+<div>
+<a href="#services">Services</a>
+<a href="installation-photovoltaique-professionnels-france.html">Photovoltaïque Pro France</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+
+<div class="hero">
+<h1>⚡ EVOLINK</h1>
+<p>Électricité Générale & Installations Photovoltaïques</p>
+<a href="#contact" class="btn">Demander un devis</a>
+</div>
+
+<div class="section">
+<h2>Qui sommes-nous ?</h2>
+<p>Evolink est spécialiste de l’installation de panneaux photovoltaïques pour professionnels en France. Nous intervenons sur bâtiments industriels, commerces, entrepôts, exploitations agricoles et sites tertiaires pour optimiser la production d’énergie solaire et réduire les coûts énergétiques..</p>
+</div>
+
+<div class="section" id="services" style="background:#eee;">
+<h2>Nos Services</h2>
+<div class="section" style="background:#f9f9f9;">
+<h2>Secteurs d’activité</h2>
+
+<div class="services">
+<div class="card">
+<h3>Bâtiments industriels</h3>
+<p>Installations photovoltaïques sur toitures industrielles et entrepôts.</p>
+</div>
+
+<div class="card">
+<h3>Commerces & bureaux</h3>
+<p>Solutions énergétiques adaptées aux bâtiments tertiaires.</p>
+</div>
+
+<div class="card">
+<h3>Exploitations agricoles</h3>
+<p>Valorisation énergétique des hangars et structures agricoles.</p>
+</div>
+</div>
+
+</div>
+<div class="section">
+<h2>Pourquoi investir dans le photovoltaïque ?</h2>
+<div class="section" style="background:#f4f4f4;">
+<h2>Notre méthode d’accompagnement</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>1️⃣ Audit énergétique</h3>
+<p>Analyse technique du bâtiment et étude de faisabilité personnalisée.</p>
+</div>
+
+<div class="card">
+<h3>2️⃣ Étude & dimensionnement</h3>
+<p>Conception sur mesure pour optimiser production et rentabilité.</p>
+</div>
+
+<div class="card">
+<h3>3️⃣ Installation & mise en service</h3>
+<p>Réalisation complète conforme aux normes en vigueur.</p>
+</div>
+
+<div class="card">
+<h3>4️⃣ Suivi & maintenance</h3>
+<p>Accompagnement long terme et optimisation des performances.</p>
+</div>
+
+</div>
+</div>
+<div class="section">
+<h2>Chiffres clés</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>📉 Jusqu’à 40%</h3>
+<p>Réduction des coûts énergétiques.</p>
+</div>
+
+<div class="card">
+<h3>⏳ ROI 6 à 8 ans</h3>
+<p>Retour sur investissement rapide et maîtrisé.</p>
+</div>
+
+<div class="card">
+<h3>⚡ 25 ans</h3>
+<p>Durée de performance des installations photovoltaïques.</p>
+</div>
+
+</div>
+</div>
+
+<p style="max-width:900px;margin:auto;">
+Réduisez vos coûts énergétiques, sécurisez votre approvisionnement en électricité et valorisez votre patrimoine immobilier. Le photovoltaïque permet aux professionnels de maîtriser leurs dépenses tout en améliorant leur performance environnementale.
+</p>
+
+</div>
+
+<div class="services">
+<div class="card">
+<h3>Électricité Générale</h3>
+<p>Installation neuve, rénovation, mise aux normes et dépannage rapide.</p>
+</div>
+
+<div class="card">
+<h3>Photovoltaïque</h3>
+<p>Installation de panneaux solaires et optimisation énergétique.</p>
+</div>
+
+<div class="card">
+<h3>Maintenance</h3>
+<p>Entretien et suivi de vos installations électriques et solaires.</p>
+</div>
+</div>
+
+</div>
+
+<div class="section" id="contact">
+<form action="https://formsubmit.co/contact@evolinkpro.com" method="POST">
+
+<input type="text" name="Nom" placeholder="Nom de l'entreprise" required><br><br>
+
+<input type="email" name="Email" placeholder="Email professionnel" required><br><br>
+
+<input type="text" name="Téléphone" placeholder="Téléphone"><br><br>
+
+<textarea name="Message" placeholder="Décrivez votre projet photovoltaïque..." rows="5" required></textarea><br><br>
+
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_subject" value="Nouvelle demande devis Evolink">
+
+<button type="submit" class="btn">Demander une étude personnalisée</button>
+
+</form>
+
+<h2>Notre localisation</h2>
+
+<div style="max-width:900px;margin:auto;border-radius:10px;overflow:hidden;box-shadow:0 4px 15px rgba(0,0,0,0.2);">
+<iframe
+src="https://www.google.com/maps?q=60+Rue+François+1er,+75008+Paris&output=embed"
+width="100%"
+height="400"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+</div>
+
+</div>
+
+<div class="section">
+<h2>Installation photovoltaïque professionnelle en France</h2>
+<p style="max-width:900px;margin:auto;">
+Nous réalisons des projets photovoltaïques pour professionnels partout en France. Nos solutions sont adaptées aux besoins énergétiques des entreprises, industries, exploitations agricoles et bâtiments tertiaires. Chaque installation est dimensionnée pour maximiser la rentabilité et la performance énergétique.
+</p>
+</div>
+
+
+<div class="footer">
+© 2025 Evolink - Tous droits réservés
+</div>
+
+</body>
+</html>
